@@ -35,18 +35,3 @@ Just open `index.html` in a browser. For clean relative paths, serve it:
 python -m http.server 8000
 # then open http://localhost:8000
 ```
-
-## Deploy free (GitHub Pages + free domain)
-
-1. Push this folder to a GitHub repo.
-2. **Settings → Pages →** deploy from `main`, root.
-3. (Optional) Grab a free domain from <https://domain.digitalplat.org>, add a
-   `CNAME` file with your domain, and point the domain's DNS at GitHub Pages.
-
-## Add another game later
-
-1. Copy `games/penguin-cannon.html` to `games/<your-game>.html`.
-2. Add one `<a>` inside the `.nav__menu` on each page.
-3. Add a `.card` on `index.html`.
-
-That's the whole extension story — the nav and stage are already built for it.
