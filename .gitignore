@@ -1,0 +1,25 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies / build output (future experiments)
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Env / secrets — never commit
+.env
+.env.*
+
+# Claude Code local settings (launch.json stays tracked)
+.claude/settings.local.json
+.claude/*.local.json

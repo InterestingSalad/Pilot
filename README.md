@@ -3,6 +3,9 @@
 A blank static website to experiment with — seeded with one mini-game,
 **Penguin Cannon**. No build step, no dependencies, no server required.
 
+**▶ Play:** <https://interestingsalad.github.io/Pilot/>
+*(if it 404s, enable Pages once: repo Settings → Pages → branch `main` → `/ (root)`)*
+
 ## Structure
 
 ```
